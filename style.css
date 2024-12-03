@@ -77,10 +77,10 @@ footer {
 }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: #efedff;
     margin: 15% auto;
     padding: 20px;
-    border: 2px solid #888;
+    border: 2px solid #2c3f8f;
     border-radius: 10px;
     width: 80%;
     max-width: 500px;
@@ -88,7 +88,7 @@ footer {
 }
 
 .close {
-    color: #aaa;
+    color: #2c3f8f;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -105,4 +105,11 @@ footer {
     font-size: 1.2rem;
     color: #F1E498;
     margin-top: 0.5rem;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
 }
