@@ -76,10 +76,11 @@ footer {
 }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: #efedff;
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 2px solid #2c3f8f;
+    border-radius: 10px;
     width: 80%;
     max-width: 500px;
     text-align: center;
