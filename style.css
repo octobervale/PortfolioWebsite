@@ -29,7 +29,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #7171a4;
+    color: F0F0FF;
     text-decoration: none;
 }
 
@@ -52,7 +52,8 @@ footer {
     background: #2c3f8f;
     color: #7171a4;
     text-align: center;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
     width: 100%;
     position: fixed;
     bottom: 0;
@@ -102,6 +103,6 @@ footer {
 
 .tagline {
     font-size: 1.2rem;
-    color: #cda715;
+    color: F1E498;
     margin-top: 0.5rem;
 }
