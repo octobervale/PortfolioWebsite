@@ -99,3 +99,9 @@ footer {
     text-decoration: none;
     cursor: pointer;
 }
+
+.tagline {
+    font-size: 1.2rem;
+    color: #cda715;
+    margin-top: 0.5rem;
+}
