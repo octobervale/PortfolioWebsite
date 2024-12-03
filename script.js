@@ -40,4 +40,25 @@ document.addEventListener('DOMContentLoaded', () => {
             skillsModal.style.display = 'none';
         }
     });
+
+    // Carousel functionality
+    const carousel = document.querySelector('.carousel-inner');
+    const prevBtn = document.querySelector('.carousel-control-prev');
+    const nextBtn = document.querySelector('.carousel-control-next');
+    let currentIndex = 0;
+
+    prevBtn.addEventListener('click', () => {
+        currentIndex = (currentIndex > 0) ? currentIndex - 1 : carousel.children.length - 1;
+        updateCarousel();
+    });
+
+    nextBtn.addEventListener('click', () => {
+        currentIndex = (currentIndex < carousel.children.length - 1) ? currentIndex + 1 : 0;
+        updateCarousel();
+    });
+
+    function updateCarousel() {
+        const offset = -currentIndex * 100;
+        carousel.style.transform = `translateX(${offset}%)`;
+    }
 });
