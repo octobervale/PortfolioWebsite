@@ -183,8 +183,6 @@ footer {
     position: relative;
     width: 80%; /* The carousel will take up 80% of the parent container's width */
     max-width: 800px; /* The maximum width of the carousel is 600px */
-    height: 60%;
-    max-height: 800px;
     margin: 2rem auto; /* Center the carousel horizontally with a margin of 2rem on top and bottom */
     overflow: hidden;
     border: 2px solid #2c3f8f;
