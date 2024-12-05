@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const modal = document.getElementById('modal');
     const modalTitle = document.getElementById('modal-title');
-    const modalImage = document.getElementById('modal-image');
+    
     const modalDescription = document.getElementById('modal-description');
     const skillsModal = document.getElementById('skills-modal');
     const skillsModalTitle = document.getElementById('skills-modal-title');
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.project').forEach(project => {
         project.addEventListener('click', () => {
             modalTitle.textContent = project.querySelector('h3').textContent;
-            modalImage.src = project.getAttribute('data-image');
+            
             modalDescription.textContent = project.getAttribute('data-description');
             modal.style.display = 'flex';
         });
